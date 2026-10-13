@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chicago Bullguer | Hambúrguer artesanal na Vila da Saúde, São Paulo</title>
+  <meta name="description"
+    content="Smash burgers artesanais, pão francesinho na brasa e espetinhos na Vila da Saúde. Peça pelo iFood ou 99Food.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/img/logo-round.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="loader" id="loader"><img src="assets/img/logo-round.jpg" alt="Chicago Bullguer"></div>
+
+  <header class="header" id="header">
+    <a href="#inicio" class="brand"><img src="assets/img/logo-round.jpg" alt="Logo Chicago Bullguer"><span>Chicago
+        Bullguer</span></a>
+    <nav class="nav" id="nav">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#brasa">Na brasa</a>
+      <a href="#sobre">A casa</a>
+      <a href="#pedir">Como pedir</a>
+      <a href="#local">Onde estamos</a>
+    </nav>
+    <a class="btn btn-red header-cta"
+      href="https://www.ifood.com.br/delivery/sao-paulo-sp/chicago-bullguer-vila-da-saude/50eb71b7-587d-464d-8676-ac5ee84ee627?utm_medium=share"
+      target="_blank" rel="noopener">Pedir agora</a>
+    <button class="burger-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="embers" id="embers" aria-hidden="true"></div>
+      <div class="hero-text">
+        <p class="hero-kicker">Vila da Saúde, São Paulo</p>
+        <h1><span>Burguer</span> <span>de verdade</span> <span>é aqui.</span></h1>
+        <p class="hero-sub">Smash burgers artesanais de 80g, feitos na chapa na hora. Sabor, qualidade e respeito em
+          cada mordida.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red"
+            href="https://www.ifood.com.br/delivery/sao-paulo-sp/chicago-bullguer-vila-da-saude/50eb71b7-587d-464d-8676-ac5ee84ee627?utm_medium=share"
+            target="_blank" rel="noopener">Pedir no iFood</a>
+          <a class="btn btn-gold" href="https://oia.99app.com/dlp9/03mN9Y" target="_blank" rel="noopener">Pedir no
+            99Food</a>
+        </div>
+      </div>
+      <div class="hero-logo"><img src="assets/img/logo-neon.jpg" alt="Logo Chicago Bullguer com touro em neon"></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Smash burger</span><span>Pão na brasa</span><span>Espetinhos</span><span>Batata
+          crocante</span><span>Entrega rápida</span>
+        <span>Smash burger</span><span>Pão na brasa</span><span>Espetinhos</span><span>Batata
+          crocante</span><span>Entrega rápida</span>
+      </div>
+    </div>
+
+    <section class="section" id="cardapio">
+      <div class="wrap">
+        <h2 class="title">Cardápio</h2>
+        <p class="lead">Seis hambúrgueres, todos com pão brioche e carne smash. Escolha o seu e peça pelo app.</p>
+        <div class="grid" id="menuGrid">
+          <article class="card">
+            <div class="ph"><img loading="lazy" src="assets/img/burger-classic.jpg" alt="Chicago Classic"></div>
+            <h3>Chicago Classic</h3>
+            <p>Pão brioche, 1 smash bovino 80g, 2 fatias de queijo, molho da casa.</p>
+          </article>
+          <article class="card">
+            <div class="ph"><img loading="lazy" src="assets/img/burger-salad.jpg" alt="Chicago Salad"></div>
+            <h3>Chicago Salad</h3>
+            <p>Pão brioche, 1 smash bovino 80g, queijo, alface, tomate, molho da casa.</p>
+          </article>
+          <article class="card">
+            <div class="ph"><img loading="lazy" src="assets/img/burger-bacon.jpg" alt="Chicago Bacon"></div>
+            <h3>Chicago Bacon</h3>
+            <p>Pão brioche, 1 smash bovino 80g, queijo, bacon crocante, molho da casa.</p>
+          </article>
+          <article class="card">
+            <div class="ph"><img loading="lazy" src="assets/img/burger-cheddar-bacon.jpg" alt="Cheddar Bacon"></div>
+            <h3>Cheddar Bacon</h3>
+            <p>Pão brioche, 1 smash bovino 80g, cheddar cremoso, bacon crocante, cebola caramelizada.</p>
+          </article>
+          <article class="card">
+            <div class="ph"><img loading="lazy" src="assets/img/burger-double.jpg" alt="Chicago Double"></div>
+            <h3>Chicago Double</h3>
+            <p>Pão brioche, 2 smash bovinos de 80g, 2 queijos, molho especial, picles.</p>
+          </article>
+          <article class="card">
+            <div class="ph"><img loading="lazy" src="assets/img/burger-bull-double-bacon.jpg" alt="Bull Double Bacon">
+            </div>
+            <h3>Bull Double Bacon</h3>
+            <p>Pão brioche, 2 smash bovinos de 80g, 2 queijos, bacon crocante, cheddar cremoso, molho especial.</p>
+          </article>
+        </div>
+        <p class="note">Valores e adicionais atualizados no iFood e no 99Food.</p>
+      </div>
+    </section>
+
+    <section class="section split" id="brasa">
+      <div class="wrap two">
+        <div class="photos">
+          <img loading="lazy" class="p1" src="assets/img/brasa.jpg"
+            alt="Pão francesinho na brasa recheado com carne e alface">
+          <img loading="lazy" class="p2" src="assets/img/espetinhos.jpg" alt="Espetinhos de carne e frango embalados">
+        </div>
+        <div>
+          <h2 class="title">Na brasa</h2>
+          <p class="lead">O pão francesinho na brasa é o carro-chefe da casa. Além dele, temos espetinhos de carne e
+            frango prontos para o seu churrasco.</p>
+          <ul class="ticks">
+            <li>Pão francesinho na brasa</li>
+            <li>Espetinhos de carne, frango e queijo</li>
+            <li>Ótimos para levar para casa</li>
+          </ul>
+          <a class="btn btn-gold"
+            href="https://www.ifood.com.br/delivery/sao-paulo-sp/chicago-bullguer-vila-da-saude/50eb71b7-587d-464d-8676-ac5ee84ee627?utm_medium=share"
+            target="_blank" rel="noopener">Ver no iFood</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="wrap two rev">
+        <div>
+          <h2 class="title">A casa</h2>
+          <p class="lead">A Chicago Bullguer nasceu na Vila da Saúde com uma ideia simples: hambúrguer artesanal feito
+            com sabor, qualidade e respeito pelo cliente.</p>
+          <div class="stats">
+            <div><b data-count="80">0</b><span>gramas de carne em cada smash</span></div>
+            <div><b data-count="6">0</b><span>hambúrgueres no cardápio</span></div>
+          </div>
+        </div>
+        <div class="shop"><img loading="lazy" src="assets/img/balcao.jpg"
+            alt="Balcão da Chicago Bullguer com chapa e letreiro do touro"></div>
+      </div>
+    </section>
+
+    <section class="section" id="pedir">
+      <div class="wrap center">
+        <h2 class="title">Como pedir</h2>
+        <p class="lead">Escolha o app, monte seu pedido e receba em casa.</p>
+        <div class="apps">
+          <a class="app ifood"
+            href="https://www.ifood.com.br/delivery/sao-paulo-sp/chicago-bullguer-vila-da-saude/50eb71b7-587d-464d-8676-ac5ee84ee627?utm_medium=share"
+            target="_blank" rel="noopener"><strong>iFood</strong><span>Peça pelo cardápio completo</span></a>
+          <a class="app food99" href="https://oia.99app.com/dlp9/03mN9Y" target="_blank"
+            rel="noopener"><strong>99Food</strong><span>Também estamos por lá</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="local">
+      <div class="wrap two">
+        <div>
+          <h2 class="title">Onde estamos</h2>
+          <p class="lead">R. Manoel Pinto Madureira, 33<br>Vila da Saúde, São Paulo - SP</p>
+          <a class="btn btn-gold"
+            href="https://www.google.com/maps/search/?api=1&query=R.+Manoel+Pinto+Madureira,+33,+Vila+da+Saúde,+São+Paulo+-+SP"
+            target="_blank" rel="noopener">Abrir no Maps</a>
+          <a class="btn btn-line" href="https://www.instagram.com/chicago_bullguer/" target="_blank"
+            rel="noopener">@chicago_bullguer</a>
+        </div>
+        <div class="map"><iframe title="Mapa da Chicago Bullguer" loading="lazy"
+            src="https://maps.google.com/maps?q=R.+Manoel+Pinto+Madureira,+33,+Vila+da+Saúde,+São+Paulo&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/img/logo-round.jpg" alt="">
+    <p>© <span id="year"></span> Chicago Bullguer. O segredo está no sabor.</p>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>
